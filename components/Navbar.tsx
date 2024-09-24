@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { CircleUser, Menu, Package2, Search } from "lucide-react"
+import { CircleUser, Menu, Package2, Search, User, ShoppingBasket, ShoppingCart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
     Card,
@@ -26,8 +26,8 @@ import LogoSvg from "../app/logo.svg"
 
 const Navbar = () => {
     return (
-        <div >
-            <header className="flex flex-wrap min-h-32 items-center justify-between  gap-4  px-4 md:px-6 relative z-50">
+        <div className="container">
+            <header className="flex flex-wrap min-h-32 items-center justify-between  gap-4 relative z-50">
                 <div className="absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2">
                     <Image
                         width={113}
@@ -40,7 +40,7 @@ const Navbar = () => {
 
                     />
                 </div>
-                <nav className="hidden flex-col gap-6 text-md  md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
+                <nav className="hidden flex-col gap-6 text-sm md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
 
                     <Link
                         href="#"
@@ -121,8 +121,8 @@ const Navbar = () => {
 
                     <DropdownMenu>
                         <DropdownMenuTrigger asChild>
-                            <Button variant="secondary" size="icon" className="rounded-full">
-                                <CircleUser className="h-5 w-5" />
+                            <Button variant="ghost" size="icon" className="rounded-full">
+                                <User className="h-6 w-6 text-primary" />
                                 <span className="sr-only">Toggle user menu</span>
                             </Button>
                         </DropdownMenuTrigger>
@@ -135,9 +135,25 @@ const Navbar = () => {
                             <DropdownMenuItem><Button>button</Button></DropdownMenuItem>
                         </DropdownMenuContent>
                     </DropdownMenu>
+                    <DropdownMenu>
+                        <DropdownMenuTrigger asChild>
+                            <Button variant="ghost" size="icon" className="rounded-full">
+                                <ShoppingCart className="h-6 w-6 text-primary" />
+                                <span className="sr-only">Toggle user menu</span>
+                            </Button>
+                        </DropdownMenuTrigger>
+                        <DropdownMenuContent align="end">
+                            <DropdownMenuLabel>Сагс</DropdownMenuLabel>
+                            <DropdownMenuSeparator />
+                            <DropdownMenuItem>Settings</DropdownMenuItem>
+                            <DropdownMenuItem>Support</DropdownMenuItem>
+                            <DropdownMenuSeparator />
+                            <DropdownMenuItem><Button>button</Button></DropdownMenuItem>
+                        </DropdownMenuContent>
+                    </DropdownMenu>
                 </div>
             </header>
-        </div>
+        </div >
     )
 }
 

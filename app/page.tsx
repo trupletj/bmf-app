@@ -6,12 +6,8 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div>
-
+    <div className="flex flex-col gap-6 items-center">
       <Navbar />
-      <Button>
-        ЗАХИАЛГА ӨГӨХ
-      </Button>
       <div className="h-[600px]"></div>
       <Footer />
     </div>
