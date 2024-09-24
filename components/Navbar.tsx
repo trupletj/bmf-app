@@ -26,12 +26,12 @@ import LogoSvg from "../app/logo.svg"
 
 const Navbar = () => {
     return (
-        <div className="container">
+        <div className="container absolute top-0">
             <header className="flex flex-wrap min-h-32 items-center justify-between  gap-4 relative z-50">
                 <div className="absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2">
                     <Image
-                        width={113}
-                        height={61}
+                        width={226}
+                        height={122}
                         alt="My Image Svg"
 
                         src={LogoSvg} // Method 1
