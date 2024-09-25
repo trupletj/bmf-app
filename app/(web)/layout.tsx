@@ -38,12 +38,8 @@ export default function RootLayout({
         <div className="flex flex-col gap-10 items-center relative">
           <Navbar />
           {children}
-
           <Footer />
-
         </div>
-
-
       </body>
     </html>
   );
