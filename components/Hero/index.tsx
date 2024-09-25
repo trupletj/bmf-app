@@ -1,10 +1,10 @@
 import React from "react";
-import Bg from "@/assets/bghero.png";
+import Bg from "@/assets/bghero.webp";
 import { Button } from "../ui/button";
 
 const Hero = () => {
   return (
-    <div className='relative top-0 left-0 w-full h-screen bg-[url("/bghero.png")] flex items-center justify-center font-montserrat-black'>
+    <div className='relative top-0 left-0 w-full h-screen bg-[url("/bghero.webp")] flex items-center justify-center font-montserrat-black'>
       <div className="container h-full pt-40 flex items-center justify-between">
         <div className="w-1/2 px-20 flex flex-col gap-5">
           <div className="flex flex-col gap-1">
@@ -24,7 +24,7 @@ const Hero = () => {
             <Button>ЗАХИАЛГА ӨГӨХ</Button>
           </div>
         </div>
-        <div className='w-1/2 bg-[url("/Borst.png")] h-full bg-center bg-no-repeat '></div>
+        <div className='w-1/2 bg-[url("/Borst.webp")] h-full bg-center bg-no-repeat '></div>
       </div>
     </div>
   );

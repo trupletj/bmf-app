@@ -4,16 +4,16 @@ import { Button } from "./ui/button";
 
 const Footer = () => {
   return (
-    <div className='relative top-0 left-0 w-full  bg-[url("/footer.png")] flex-col items-center justify-center font-montserrat-black'>
+    <div className='relative top-0 left-0 w-full  bg-[url("/footer.webp")] flex-col items-center justify-center font-montserrat-black'>
       {/* Footer container */}
       <footer className="container mx-auto ">
         <div className="flex items-center justify-center p-6  lg:justify-between">
           <div className="w-1/2 p-10">
-            <Image src="/logo1.png" alt="logo1" width={260} height={132} />
+            <Image src="/logo1.webp" alt="logo1" width={260} height={132} />
           </div>
           <div className="w-1/2">
             <Image
-              src="/footerword.png"
+              src="/footerword.webp"
               alt="footerword"
               width={540}
               height={122}
@@ -31,7 +31,7 @@ const Footer = () => {
           </p>
           <p className="mb-3 text-gray-500 dark:text-gray-400">
             <Image
-              src="/Footer icons.png"
+              src="/Footer icons.webp"
               alt="Footer icons"
               width={260}
               height={132}
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
 
         <div className="relative w-container h-[5px] ">
-          <Image src={"/zuraas.png"} fill alt="zuraas" />
+          <Image src={"/zuraas.webp"} fill alt="zuraas" />
         </div>
         <div className="relative flex p-10 text-center gap-60">
           <div className="text-base">
