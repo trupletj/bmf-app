@@ -45,7 +45,7 @@ const ProductFeaturesSection = () => {
           {/* fresh */}
           <div className="absolute bottom-[15%] right-[0%] w-[200px] flex flex-col items-center gap-2 text-center">
             <div className="relative w-[185px] h-[166px] ">
-              <Image src={"/fresh-icowebp"} fill alt="organic" />
+              <Image src={"/fresh-icon.webp"} fill alt="organic" />
             </div>
             <div className="font-bold uppercase text-2xl">Үргэлж шинэ</div>
             <p className="text-center px-3">
