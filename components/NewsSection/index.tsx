@@ -10,7 +10,7 @@ const NewsSection = () => {
                 <SectionHeader title="МЭДЭЭ МЭДЭЭЛЭЛ" />
                 <div className='w-full flex items-center'>
                     <div className='w-1/2 aspect-[4/3] overflow-hidden relative'>
-                        <Image fill style={{ backgroundImage: "cover" }} src="/bghero.png" alt="medee" />
+                        <Image fill style={{ backgroundImage: "cover" }} src="/medee.webp" alt="medee" />
                     </div>
                     <div className='w-1/2 flex flex-col items-start justify-center px-20 gap-5'>
                         <h1 className='text-6xl font-bold'>ҮХРИЙН МАХНЫ АЧ ТУС</h1>
