@@ -35,7 +35,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`}
       >
-        <div className="flex flex-col gap-6 items-center relative">
+        <div className="flex flex-col gap-10 items-center relative">
           <Navbar />
           {children}
 

@@ -6,9 +6,9 @@ const ProductFeaturesSection = () => {
     return (
         <div className='flex items-center justify-center w-full'>
             <div className='container flex flex-col items-center gap-3'>
-                <SectionHeader title="БҮТЭЭГДЭХҮҮНИЙ ОНЦЛОГ"  />
-                <div className='w-full relative aspect-[16/8] bg-[url("/subtract.png")] bg-no-repeat bg-center bg-bottom'>
-                    <div className='absolute bottom-[15%] left-[0%] w-[200px] flex flex-col items-center gap-2 text-center'>
+                <SectionHeader title="БҮТЭЭГДЭХҮҮНИЙ ОНЦЛОГ" />
+                <div className='w-full relative aspect-[16/10] bg-[url("/subtract.png")] bg-no-repeat bg-center bg-bottom'>
+                    <div className='absolute bottom-[35%] left-[0%] w-[200px] flex flex-col items-center gap-2 text-center'>
                         <div className='relative w-[185px] h-[166px] '>
                             <Image src={'/organic-icon.png'} fill alt="organic" />
                         </div>
@@ -38,7 +38,7 @@ const ProductFeaturesSection = () => {
                         <p className='text-center px-3'>Гарал үүслийн бичигтэй, эрүүл ахуйн шаардлага хангасан.</p>
                     </div>
                     {/* fresh */}
-                    <div className='absolute bottom-[15%] right-[0%] w-[200px] flex flex-col items-center gap-2 text-center'>
+                    <div className='absolute bottom-[35%] right-[0%] w-[200px] flex flex-col items-center gap-2 text-center'>
                         <div className='relative w-[185px] h-[166px] '>
                             <Image src={'/fresh-icon.png'} fill alt="organic" />
                         </div>
